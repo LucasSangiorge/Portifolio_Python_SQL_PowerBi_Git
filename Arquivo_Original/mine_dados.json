@@ -1,0 +1,122 @@
+{
+    "maquinas": [
+        {
+            "id_maquina": 1,
+            "nome_maquina": "Escavadeira ZX350",
+            "tipo": "Escavadeira Hidráulica",
+            "data_aquisicao": "2019-05-12",
+            "status": "Ativa"
+        },
+        {
+            "id_maquina": 2,
+            "nome_maquina": "Caminhão 785D",
+            "tipo": "Caminhão Fora de Estrada",
+            "data_aquisicao": "2020-08-03",
+            "status": "Em manutenção"
+        },
+        {
+            "id_maquina": 3,
+            "nome_maquina": "Britador C120",
+            "tipo": "Britador Primário",
+            "data_aquisicao": "2018-02-17",
+            "status": "Ativa"
+        },
+        {
+            "id_maquina": 4,
+            "nome_maquina": "Pá Carregadeira L120",
+            "tipo": "Pá Carregadeira",
+            "data_aquisicao": "2021-11-22",
+            "status": "Ativa"
+        }
+    ],
+    "operadores": [
+        {
+            "id_operador": 1,
+            "nome": "Carlos Almeida",
+            "cargo": "Operador de Escavadeira",
+            "turno": "Diurno",
+            "experiencia_anos": 5
+        },
+        {
+            "id_operador": 2,
+            "nome": "João Ferreira",
+            "cargo": "Motorista de Caminhão",
+            "turno": "Noturno",
+            "experiencia_anos": 3
+        },
+        {
+            "id_operador": 3,
+            "nome": "Ana Souza",
+            "cargo": "Técnica de Manutenção",
+            "turno": "Diurno",
+            "experiencia_anos": 6
+        },
+        {
+            "id_operador": 4,
+            "nome": "Paulo Mendes",
+            "cargo": "Operador de Pá Carregadeira",
+            "turno": "Noturno",
+            "experiencia_anos": 4
+        }
+    ],
+    "manutencoes": [
+        {
+            "id_manutencao": 1,
+            "id_maquina": 1,
+            "data": "2024-06-10",
+            "tipo": "Preventiva",
+            "custo": 3500.0,
+            "responsavel": "Ana Souza"
+        },
+        {
+            "id_manutencao": 2,
+            "id_maquina": 2,
+            "data": "2024-08-15",
+            "tipo": "Corretiva",
+            "custo": 7800.0,
+            "responsavel": "Ana Souza"
+        },
+        {
+            "id_manutencao": 3,
+            "id_maquina": 3,
+            "data": "2025-01-22",
+            "tipo": "Preventiva",
+            "custo": 2100.0,
+            "responsavel": "Ana Souza"
+        },
+        {
+            "id_manutencao": 4,
+            "id_maquina": 4,
+            "data": "2025-03-19",
+            "tipo": "Corretiva",
+            "custo": 5600.0,
+            "responsavel": "Ana Souza"
+        }
+    ],
+    "incidentes": [
+        {
+            "id_incidente": 1,
+            "id_maquina": 2,
+            "id_operador": 2,
+            "data": "2024-09-05",
+            "descricao": "Falha nos freios durante transporte de minério",
+            "gravidade": "Alta"
+        },
+        {
+            "id_incidente": 2,
+            "id_maquina": 3,
+            "id_operador": 1,
+            "data": "2025-02-11",
+            "descricao": "Vibração excessiva detectada durante operação",
+            "gravidade": "Média"
+        },
+        {
+            "id_incidente": 3,
+            "id_maquina": 4,
+            "id_operador": 4,
+            "data": "2025-04-30",
+            "descricao": "Pane elétrica temporária",
+            "gravidade": "Baixa"
+        }
+    ]
+}
