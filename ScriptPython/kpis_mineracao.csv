@@ -1,5 +1,5 @@
-﻿id_maquina,nome_maquina,tipo,status,custo_total_manutencao,total_incidentes
-1,Escavadeira ZX350,Escavadeira Hidráulica,Ativa,3500.0,0
-2,Caminhão 785D,Caminhão Fora de Estrada,Em manutenção,7800.0,1
-3,Britador C120,Britador Primário,Ativa,2100.0,1
-4,Pá Carregadeira L120,Pá Carregadeira,Ativa,5600.0,1
+﻿id_maquina,tipo_maquina,status,responsaveis_manutencao,tipo_manutencao,nivel_gravidade,total_incidentes,data_aquisicao,custo_total_manutencao
+1,Escavadeira Hidráulica,Ativa,Ana Souza,Preventiva,Sem ocorrências,0,2019-05-12,3500.0
+2,Caminhão Fora de Estrada,Em manutenção,Ana Souza,Corretiva,Alta,1,2020-08-03,7800.0
+3,Britador Primário,Ativa,Ana Souza,Preventiva,Média,1,2018-02-17,2100.0
+4,Pá Carregadeira,Ativa,Ana Souza,Corretiva,Baixa,1,2021-11-22,5600.0
