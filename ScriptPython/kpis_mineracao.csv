@@ -1,5 +1,5 @@
-id_maquina;tipo_maquina;status;responsaveis_manutencao;tipo_manutencao;nivel_gravidade;total_incidentes;data_aquisicao;custo_total_manutencao
-1;Escavadeira Hidr·ulica;Ativa;Ana Souza;Preventiva;Sem ocorrÍncias;0;12/05/2019;3500.0
-2;Caminh„o Fora de Estrada;Em manutenÁ„o;Ana Souza;Corretiva;Alta;1;03/08/2020;7800.0
-3;Britador Prim·rio;Ativa;Ana Souza;Preventiva;MÈdia;1;17/02/2018;2100.0
-4;P· Carregadeira;Ativa;Ana Souza;Corretiva;Baixa;1;22/11/2021;5600.0
+Ôªøid_maquina,tipo_maquina,status,responsaveis_manutencao,tipo_manutencao,nivel_gravidade,total_incidentes,data_aquisicao,custo_total_manutencao
+1,Escavadeira Hidr√°ulica,Ativa,Ana Souza,Preventiva,Sem ocorr√™ncias,0,2019-05-12,3500.0
+2,Caminh√£o Fora de Estrada,Em manuten√ß√£o,Ana Souza,Corretiva,Alta,1,2020-08-03,7800.0
+3,Britador Prim√°rio,Ativa,Ana Souza,Preventiva,M√©dia,1,2018-02-17,2100.0
+4,P√° Carregadeira,Ativa,Ana Souza,Corretiva,Baixa,1,2021-11-22,5600.0
